@@ -1,13 +1,20 @@
+# backend-engineering
 
-# Vedika's Engineering Journey
+Production-grade backend concepts, implemented from scratch.
 
-Turning curiosity into code. Building from scratch.
+## Stack
+Linux · PostgreSQL · FastAPI · Docker · Redis · AWS
 
-## What I'm learning
-- Linux, Networking, Backend, System Design
-- Goal: Product company in 5 months
+## Modules
+| Module | Concepts | Status |
+|--------|----------|--------|
+| 01-linux | processes, signals, file descriptors | ✅ |
+| 02-networking | TCP/IP, DNS, HTTP, sockets | ✅ |
+| 03-databases | PostgreSQL, ACID, indexes, transactions | ✅ |
+| 04-fastapi | REST, validation, auto docs | ✅ |
+| 05-docker | containers, compose, networking | 🔄 |
+| 06-redis | caching, TTL, eviction | ⏳ |
+| 07-system-design | LB, sharding, CAP theorem | ⏳ |
 
-## Progress
-- Week 1: Linux ✅
-- Week 2: Networking ✅  
-- Week 3: Git + GitHub 🔄
+## Run locally
+cd 04-fastapi && uvicorn main:app --reload
